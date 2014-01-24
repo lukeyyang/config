@@ -1,0 +1,15 @@
+[user]
+	name = Luke Yang
+	email = yifeiyan@usc.edu
+[core]
+	excludesfile = /Users/yihfei/.gitignore_global
+	editor = /usr/bin/vim
+	autocrlf = true
+[difftool "sourcetree"]
+	cmd = opendiff \"$LOCAL\" \"$REMOTE\"
+	path = 
+[mergetool "sourcetree"]
+	cmd = /Applications/SourceTree.app/Contents/Resources/opendiff-w.sh \"$LOCAL\" \"$REMOTE\" -ancestor \"$BASE\" -merge \"$MERGED\"
+	trustExitCode = true
+[color]
+	ui = auto
